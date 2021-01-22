@@ -7,8 +7,8 @@
 
     Extra notes:
 
-    "happy" is a string slice. The to_string method converts the string slice to a string.
-    println!() is a macro. In the examples below we print the value in my_string to the console.
+    - "happy" is a string slice. The to_string method converts the string slice to a string.
+    - println!() is a macro. In the examples below we print the value in my_string to the console.
 */
 
 fn main() {
@@ -30,8 +30,8 @@ fn main() {
 
     Extra notes:
 
-    Here, push_str() appends a string slice on the String str.
-    Because "a" here is a string literal, it's a &str (string slice reference).
+    - Here, push_str() appends a string slice on the String str.
+    - Because "a" here is a string literal, it's a &str (string slice reference).
 */
 fn add_an_a(str: &mut String) {
     str.push_str("a");
